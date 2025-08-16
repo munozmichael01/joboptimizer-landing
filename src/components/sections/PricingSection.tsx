@@ -9,7 +9,6 @@ import {
   Crown, 
   Rocket,
   Users,
-  ArrowRight,
   Calculator,
   TrendingUp,
   Shield
@@ -131,14 +130,15 @@ const PricingSection: React.FC = () => {
     }
   ];
 
-  const roiCalculatorData = [
-    {
-      currentSpend: 5000,
-      timeSpent: 15,
-      improvement: { cpa: 40, time: 87 },
-      savings: { monthly: 2600, annual: 31200 }
-    }
-  ];
+  // ROI Calculator data for future implementation
+  // const roiCalculatorData = [
+  //   {
+  //     currentSpend: 5000,
+  //     timeSpent: 15,
+  //     improvement: { cpa: 40, time: 87 },
+  //     savings: { monthly: 2600, annual: 31200 }
+  //   }
+  // ];
 
   return (
     <section id="pricing" className="py-20 lg:py-32 bg-white relative overflow-hidden">

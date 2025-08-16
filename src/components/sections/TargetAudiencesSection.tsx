@@ -8,7 +8,6 @@ import {
   Briefcase, 
   Globe,
   TrendingUp,
-  DollarSign,
   Target,
   Zap,
   CheckCircle,
@@ -340,7 +339,7 @@ const TargetAudiencesSection: React.FC = () => {
                     transition={{ delay: 0.6 }}
                     className="bg-white/90 backdrop-blur-sm rounded-xl p-6 border border-white/50"
                   >
-                    <div className="text-2xl text-gray-400 mb-3">"</div>
+                    <div className="text-2xl text-gray-400 mb-3">&ldquo;</div>
                     <p className="text-gray-700 mb-4 italic">
                       {currentAudience.testimonial.quote}
                     </p>
